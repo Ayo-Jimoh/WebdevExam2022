@@ -9,7 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 //builder.Services.AddDbContext<ApplicationDbContext>(c => c.UseSqlServer(Configuration.GetConnectionString("BusinessConnection")));
-builder.Services.AddDbContext<ApplicationDbContext>(c => c.UseSqlServer("server= DESKTOP-QCM573L; database=mySmartWallet2Db; Trusted_Connection=True;"));
+builder.Services.AddDbContext<ApplicationDbContext>(c => c.UseSqlServer("server= DESKTOP-QCM573L; database=mySmartWallet2Db1; Trusted_Connection=True;"));
 
 //builder.Services.AddScoped<ICustomerRepo, CustomerRepo>();
 builder.Services.AddScoped<IRepository<Customer,Guid> , Repository<Customer, Guid>>();
