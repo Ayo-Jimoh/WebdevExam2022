@@ -10,24 +10,24 @@
                 context.Customers.Add(new Customer
 
                 {
-                    FirstName = "Ismail",
-                    LastName = "Adekambi",
-                    MiddleName = "Oladimeji",
+                    FirstName = "Jimoh",
+                    LastName = "Ayodeji",
+                    MiddleName = "Julius",
                     gender = GenderEnum.male,
                     MaritalStatus= MaritalStatusEnum.Single,
                     DateOfBirth = DateTime.Now.AddYears(-20),
-                    Country = "England",
-                    State = "London",
-                    City ="Manhattan",
+                    Country = "Nigeria",
+                    State = "Lagos",
+                    City ="Magodo",
                     Active = true,
 
                 });
                 context.Customers.Add(new Customer
 
                 {
-                    FirstName = "Clara",
-                    LastName = "Adekambi",
-                    MiddleName = "Amirah",
+                    FirstName = "Funmi",
+                    LastName = "Adeola",
+                    MiddleName = "Adejumoke",
                     gender = GenderEnum.Female,
                     MaritalStatus = MaritalStatusEnum.Single,
                     DateOfBirth = DateTime.Now.AddYears(-10),
